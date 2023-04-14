@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "AppAlarma2",
+    "slug": "AppAlarma2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_square.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_square.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.silviarusmata.AppAlarma2"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
